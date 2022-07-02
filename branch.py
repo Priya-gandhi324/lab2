@@ -1,14 +1,16 @@
-num = 11
+num = 29
+
+# done
 
 if num > 1:
 
-	for i in range(2, int(num/2)+1):
+    for i in range(2, int(num**(1/2)+1)):
 
-		if (num % i) == 0:
-			print(num, "is not a prime number")
-			break
-	else:
-		print(num, "is a prime number")
+        if (num % i) == 0:
+            print(num, "is not a prime number")
+            break
+    else:
+        print(num, "is a prime number")
 
 else:
-	print(num, "is not a prime number")
+    print(num, "is not a prime number")
